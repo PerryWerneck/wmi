@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <strsafe.h>
 
+/*
 void __stdcall _com_issue_error(HRESULT hr)
 {
 	#define MESSAGE_LENGTH_MAX 128
@@ -11,6 +12,7 @@ void __stdcall _com_issue_error(HRESULT hr)
 	StringCbPrintfA(message, MESSAGE_LENGTH_MAX, "_com_issue_error() called with parameter HRESULT = %lu", hr);
 	MessageBox(NULL, message, "Error", MB_OK | MB_ICONERROR);
 }
+*/
 
 namespace _com_util
 {
